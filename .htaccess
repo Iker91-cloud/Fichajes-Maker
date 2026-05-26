@@ -1,0 +1,11 @@
+
+# HTID:23235290: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:23235290:
+# Configuración de CORS
+<IfModule mod_headers.c>
+    Header set Cross-Origin-Resource-Policy "cross-origin"
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET,POST,OPTIONS,DELETE,PUT"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>

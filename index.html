@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirigiendo...</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #4b79a1, #283e51);
+            color: #ffffff;
+        }
+        .container {
+            text-align: center;
+        }
+        .container img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .container h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .container p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/CODIGO/imagenes/icono-maker.png" alt="Maker Icon">
+        <h1>Bienvenido al Sistema Maker</h1>
+        <p>Redirigiendo al sistema de inicio de sesión...</p>
+    </div>
+    <script>
+        setTimeout(function(){
+            window.location.href = "/CODIGO/login.php";
+        }, 3000);
+    </script>
+</body>
+</html>
